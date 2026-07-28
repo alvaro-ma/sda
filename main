@@ -1,0 +1,120 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Twenty Seconds Resume/CV - CONSULTING
+% LaTeX Template
+% Alvaro Morales - Sales Ops / Data Engineer
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[letterpaper]{twentysecondcv}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+\profilepic{Alv.jpg}
+
+\cvname{Alvaro Morales}
+
+\cvdate{}
+
+\cvaddress{alvaro.moralesar@gmail.com}
+
+\cvnumberphone{+33 (0) 687 898 436}
+
+\cvsite{France / Remote}
+
+\cvmail{linkedin/alvaro-moralesa}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	 LANGUAGES & SUMMARY
+%----------------------------------------------------------------------------------------
+
+\Education{
+\textbf{Languages:}\\
+Spanish (Native)\\
+English (Fluent)\\
+French (Fluent)\\
+\newline
+\textbf{Profile:}\\
+Global Sales Ops \& Revenue\\
+Engineering Lead. Full-stack\\
+operator: strategy $\rightarrow$\\
+build $\rightarrow$ automation.
+}
+
+%----------------------------------------------------------------------------------------
+%	 CORE SKILLS
+%----------------------------------------------------------------------------------------
+
+\skills{
+\textbf{Technical:}\\
+SQL \textbullet{} VBA \textbullet{} dbt\\
+Jira \textbullet{} GitHub \textbullet{} HTML Canvas\\
+\newline
+\textbf{Business:}\\
+Commission Framework Design\\
+Sales Performance Modeling\\
+Executive Reporting \& Strategy
+}
+
+\Strength{
+\newline Strategic Thinking\\
+\newline Full-Stack Execution}
+
+\Hobbies{Data-Driven\\
+Optimization}
+
+\makeprofile
+
+%----------------------------------------------------------------------------------------
+%	 EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+
+\begin{twenty}
+
+\twentyitem{May 2026–Present}{Sales Acceleration Lead — Ebury Partners}{Paris, France}{
+\textbf{Global Scope:} 45+ offices, 30+ countries. Managing analytics team.\\
+\textbf{Commission Framework Redesign:} Restructured global incentive system to prioritize efficiency \& quality, eliminating overpayment on easy-to-reach uplift commissions. \textbf{Impact: £1M+ in optimization.}\\
+\textbf{Reporting Automation:} Designed 3 AI-powered agents reducing analytical workload by 1 hour/week per agent. Automated Friday revenue/KPI/forecast email reaching global exec stakeholders.\\
+\textbf{Analytics Infrastructure:} Built 3 executive dashboards (QC Uplift, Sales KPIs, Untraded Accounts) serving sales leadership; dbt pipelines with YAML metadata \& CI/CD workflows.
+}
+
+\twentyitem{Jun 2022–Apr 2026}{Senior Commercial Analyst — Ebury Partners}{Paris, France}{
+Optimized efficiency \& pipeline visibility across 3 countries (5 offices). Designed sales performance scoring models \& frameworks powering executive decision-making. Built interactive dashboards \& executive reporting infrastructure.
+}
+
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{twenty}
+
+\twentyitem{2018–2020}{Master of Science in Finance — HEC Lausanne}{GPA: 5.4}{Data Science, Advanced Data Analysis, Quantitative Asset \& Risk Management, Empirical Methods of Finance}
+
+\twentyitem{2019}{Exchange: Universität St. Gallen}{GPA: 5.2}{Sustainable Finance, Machine \& Deep Learning, Computational Finance}
+
+\twentyitem{2011–2016}{Bachelor of Economics \& International Commerce — Universidad ESAN, Peru}{Avg: 17.5/20}{First Class Honors}
+
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 CERTIFICATIONS
+%----------------------------------------------------------------------------------------
+
+\section{Certifications}
+
+CFA Level I (2018) \textbullet{} Lean Six Sigma Black Belt (2017) \textbullet{} Six Sigma Green Belt (2016)
+
+\end{document}
